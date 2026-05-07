@@ -1,0 +1,76 @@
+:root {
+  /* ABS Colors */
+  --abs-dark-blue: #406280;
+  --abs-gray-24: #928374;
+  --abs-neutral-aqua: #689d6a;
+  --abs-neutral-blue: #458588;
+  --abs-neutral-green: #98971a;
+  --abs-neutral-orange: #d65d0e;
+  --abs-neutral-purple: #b16286;
+  --abs-neutral-red: #cc241d;
+  --abs-neutral-yellow: #d79921;
+
+  /* Mode Background */
+  --mode-bg-0-s: #f7f4e2;
+  --mode-bg-0: #fbf1c7;
+  --mode-bg-0-h: #f9f5d7;
+  --mode-bg-1: #ebdbb2;
+  --mode-bg-2: #d5c4a1;
+  --mode-bg-3: #bdae93;
+  --mode-bg-4: #a89984;
+
+  /* Mode Foreground */
+  --mode-fg-0: #282828;
+  --mode-fg-1: #3c3836;
+  --mode-fg-2: #504945;
+  --mode-fg-3: #665c54;
+  --mode-fg-4: #7c6f64;
+
+  /* Mode Accents */
+  --mode-aqua: #427b58;
+  --mode-blue: #076678;
+  --mode-green: #79740e;
+  --mode-orange: #af3a03;
+  --mode-purple: #8f3f71;
+  --mode-red: #9d0006;
+  --mode-yellow: #b57614;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  align-items: center;
+  background-color: var(--mode-fg-0);
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+}
+
+.navbar__wordmark {
+  color: var(--mode-bg-0-s);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  font-style: normal;
+  position: absolute;
+  left: 32px;
+
+}
+
+.navbar__links {
+  position: absolute;
+  right: 32px;
+}
+
+.navbar__link {
+  color: var(--mode-bg-0-s);
+  justify-content: space-evenly;
+  padding: 2rem;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+}
