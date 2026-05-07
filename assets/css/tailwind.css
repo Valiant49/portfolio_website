@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@tailwind base;       /* Resets browser styles (preflight) */
+@tailwind components; /* Standard Tailwind component classes */
+@tailwind utilities;  /* The actual classes like 'flex' or 'p-4' */
