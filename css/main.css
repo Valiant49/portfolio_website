@@ -2,6 +2,43 @@
 @import "./components/navbar.css";
 @import "./tailwind.css";
 
+:root {
+  /* ABS Colors */
+  --abs-dark-blue: #406280;
+  --abs-gray-24: #928374;
+  --abs-neutral-aqua: #689d6a;
+  --abs-neutral-blue: #458588;
+  --abs-neutral-green: #98971a;
+  --abs-neutral-orange: #d65d0e;
+  --abs-neutral-purple: #b16286;
+  --abs-neutral-red: #cc241d;
+  --abs-neutral-yellow: #d79921;
+
+  /* Mode Background */
+  --mode-bg-0-s: #f7f4e2;
+  --mode-bg-0: #fbf1c7;
+  --mode-bg-0-h: #f9f5d7;
+  --mode-bg-1: #ebdbb2;
+  --mode-bg-2: #d5c4a1;
+  --mode-bg-3: #bdae93;
+  --mode-bg-4: #a89984;
+
+  /* Mode Foreground */
+  --mode-fg-0: #282828;
+  --mode-fg-1: #3c3836;
+  --mode-fg-2: #504945;
+  --mode-fg-3: #665c54;
+  --mode-fg-4: #7c6f64;
+
+  /* Mode Accents */
+  --mode-aqua: #427b58;
+  --mode-blue: #076678;
+  --mode-green: #79740e;
+  --mode-orange: #af3a03;
+  --mode-purple: #8f3f71;
+  --mode-red: #9d0006;
+  --mode-yellow: #b57614;
+}
 
 /* 
 ########################################
@@ -18,7 +55,7 @@ HERO
 ####################################### 
 */
 
-.Hero {
+.hero {
   background-color: var(--mode-bg-0-s);
   min-height: calc(100vh - 60px);
   display: flex;
@@ -64,4 +101,70 @@ HERO
 SERVICES
 ####################################### 
 */
+
+.services {
+  background-color: var(--mode-bg-0-s);
+  min-height: 100vh;
+}
+
+
+
+.services__header { 
+    display: flex;
+    flex-direction: row;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-left: 150px;
+    position: relative;
+    writing-mode: vertical-rl;
+    z-index: 2;
+}
+
+.shape {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.shape--1 {
+  background-color: var(--abs-neutral-red);
+  top: 223px;
+  left: 135px;
+  z-index: 0;
+}
+
+.shape--2 {
+  background-color: var(--abs-neutral-blue);
+  top: 390px;
+  left: 195px;
+  width: 75px;
+  height: 75px;
+  z-index: 1; 
+}
+
+.shape--3 {
+  background-color: var(--abs-neutral-yellow);
+  top: 370px;
+  left: 180px;
+  width: 50px;
+  height: 50px;
+  z-index: 1; 
+}
+
+.services__header > span {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+}
+
+.services__header > span > span {
+    display: block;
+    transform: translateX(17%);
+}
+
+
 
