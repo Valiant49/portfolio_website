@@ -2,3 +2,66 @@
 @import "./components/navbar.css";
 @import "./tailwind.css";
 
+
+/* 
+########################################
+########################################
+Index
+########################################
+######################################## 
+*/
+
+
+/* 
+########################################
+HERO
+####################################### 
+*/
+
+.Hero {
+  background-color: var(--mode-bg-0-s);
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 900;
+}
+
+.hero__tagline {
+  font-size: 6rem;
+  font-style: italic;
+}
+
+.hero__introduction {
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 400;
+  padding: 20px 20px 20px 0px;
+}
+
+.hero__cta {
+  background-color: var(--mode-aqua);
+  border-radius: 20px;
+  border: none;
+  color: var(--mode-bg-0-s);
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.hero__cta:hover{
+  background-color: var(--abs-neutral-aqua);
+}
+
+.hero__pfp {
+  width: 500px;
+  height: 700px;
+  padding-left: 75px;
+}
+
+/* 
+########################################
+SERVICES
+####################################### 
+*/
+

@@ -41,6 +41,12 @@
   padding: 0;
 }
 
+/* 
+########################################
+NAVBAR
+####################################### 
+*/
+
 .Navbar {
   align-items: center;
   background-color: var(--mode-fg-0);
