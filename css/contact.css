@@ -1,0 +1,17 @@
+@import "./variables.css";
+@import "./components/navbar.css";
+@import "./tailwind.css";
+
+body {
+    background-color: var(--mode-bg-0-s);
+}
+
+.contact__title {
+  color: var(--mode-fg-0);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}

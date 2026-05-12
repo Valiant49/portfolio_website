@@ -20,14 +20,17 @@ NAVBAR
 }
 
 .navbar__wordmark {
-  color: var(--mode-bg-0-s);
   font-family: "Helvetica Neue", sans-serif;
   font-size: 2rem;
   font-weight: 900;
   font-style: normal;
-  position: absolute;
   left: 32px;
+  position: absolute;
+}
 
+.navbar__wordmark > a {
+  text-decoration: none;
+  color: var(--mode-bg-0-s);
 }
 
 .navbar__links {
