@@ -68,7 +68,7 @@ SERVICES
 
 .services {
   /* background-color: var(--mode-bg-0-s); */
-  background-color: var(--abs-gray-24);
+  background-color: var(--mode-bg-2);
   min-height: 80vh;
   position: relative;
 }
@@ -152,8 +152,14 @@ SERVICES
 
 .service__2 {
   position: absolute;
-  left: 680px;
+  left: 650px;
   top: 350px;
+}
+
+.service__3 {
+  position: absolute;
+  left: 750px;
+  top: 500px;
 }
 
 /* 
@@ -245,4 +251,32 @@ ABOUT
   line-height: 1.9em;
   padding: 1.2rem;
   text-align: justify;
+}
+
+/* 
+########################################
+MINI-FOOTER
+####################################### 
+*/
+
+.footer {
+  background-color: var(--mode-bg-4);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer__container > span{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer__container > span > *{
+  margin: 10px;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: var(--mode-fg-0);
 }
