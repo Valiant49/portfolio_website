@@ -68,7 +68,7 @@ SERVICES
 
 .services {
   /* background-color: var(--mode-bg-0-s); */
-  background-color: var(--mode-bg-2);
+  background-color: var(--mode-bg-0);
   min-height: 80vh;
   position: relative;
 }
@@ -131,12 +131,13 @@ SERVICES
 }
 
 .services__offered {
-  /* background-color: var(--mode-aqua); */
-  background-image: linear-gradient(to top, var(--abs-neutral-aqua), var(--mode-aqua));
+  background-color: var(--abs-neutral-aqua);
+  /* background-image: linear-gradient(to top, var(--abs-neutral-aqua), var(--mode-aqua)); */
   border-radius: 20px;
   max-width: 750px;
   max-height: 350px;
   padding: 1.5rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .service__title {

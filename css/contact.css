@@ -3,7 +3,15 @@
 @import "./tailwind.css";
 
 body {
-    background-color: var(--mode-bg-0-s);
+  background-color: var(--mode-bg-0-s);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures body is at least as tall as the screen */
+  margin: 0;
+}
+
+.contact__page {
+  flex: 1;
 }
 
 img {
