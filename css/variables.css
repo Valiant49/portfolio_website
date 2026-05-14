@@ -34,5 +34,38 @@
   --mode-purple: #8f3f71;
   --mode-red: #9d0006;
   --mode-yellow: #b57614;
+}
 
+@theme {
+  --color-abs-dark-blue: var(--abs-dark-blue);
+  --color-abs-gray-24: var(--abs-gray-24);
+  --color-abs-neutral-aqua: var(--abs-neutral-aqua);
+  --color-abs-neutral-blue: var(--abs-neutral-blue);
+  --color-abs-neutral-green: var(--abs-neutral-green);
+  --color-abs-neutral-orange: var(--abs-neutral-orange);
+  --color-abs-neutral-purple: var(--abs-neutral-purple);
+  --color-abs-neutral-red: var(--abs-neutral-red);
+  --color-abs-neutral-yellow: var(--abs-neutral-yellow);
+
+  --color-mode-bg-0-s: var(--mode-bg-0-s);
+  --color-mode-bg-0: var(--mode-bg-0);
+  --color-mode-bg-0-h: var(--mode-bg-0-h);
+  --color-mode-bg-1: var(--mode-bg-1);
+  --color-mode-bg-2: var(--mode-bg-2);
+  --color-mode-bg-3: var(--mode-bg-3);
+  --color-mode-bg-4: var(--mode-bg-4);
+
+  --color-mode-fg-0: var(--mode-fg-0);
+  --color-mode-fg-1: var(--mode-fg-1);
+  --color-mode-fg-2: var(--mode-fg-2);
+  --color-mode-fg-3: var(--mode-fg-3);
+  --color-mode-fg-4: var(--mode-fg-4);
+
+  --color-mode-aqua: var(--mode-aqua);
+  --color-mode-blue: var(--mode-blue);
+  --color-mode-green: var(--mode-green);
+  --color-mode-orange: var(--mode-orange);
+  --color-mode-purple: var(--mode-purple);
+  --color-mode-red: var(--mode-red);
+  --color-mode-yellow: var(--mode-yellow);
 }

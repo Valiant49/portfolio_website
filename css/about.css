@@ -34,7 +34,7 @@ body {
 .about__description {
   position: static;
   width: 645px;
-  height: 500px;
+  height: 450px;
   margin-left: 75px;
 }
 
@@ -54,4 +54,68 @@ body {
   line-height: 1.9em;
   padding: 1.2rem;
   text-align: justify;
+}
+
+.skills__header {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.skills__subheader {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+/* -----------
+TOOLS
+----------- */
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.tool > img {
+  width: 50px;
+  height: 50px;
+}
+
+.tool > span {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+.tools__design {
+  display: grid;
+  row-gap: 12px;
+  column-gap: 50px;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+
+.tools__development {
+  display: grid;
+  row-gap: 12px;
+  column-gap: 50px;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  grid-template-rows: repeat(2, auto);
 }
