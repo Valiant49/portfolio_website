@@ -257,6 +257,20 @@ ABOUT
   text-align: justify;
 }
 
+.about__cta {
+  background-color: var(--mode-aqua);
+  border-radius: 20px;
+  border: none;
+  color: var(--mode-bg-0-s);
+  font-size: 1.2rem;
+  margin: 1.2rem;
+  padding: 10px 20px;
+}
+
+.about__cta:hover {
+  background-color: var(--abs-neutral-aqua);
+}
+
 /* 
 ########################################
 MINI-FOOTER
