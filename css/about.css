@@ -14,5 +14,44 @@ body {
   padding: 2rem;
   display: flex;
   justify-content: center;
-  
+  margin-bottom: 10px;
+}
+
+.about__introduction {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about__pfp {
+  background-color: var(--abs-neutral-red);
+  border-radius: 50%;
+  height: 350px;
+  position: static;
+}
+
+.about__description {
+  position: static;
+  width: 645px;
+  height: 500px;
+  margin-left: 75px;
+}
+
+.about__name {
+  padding: 1.2rem;
+  /* padding-left: 0; */
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.about__information {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.9em;
+  padding: 1.2rem;
+  text-align: justify;
 }
