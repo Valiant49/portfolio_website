@@ -8,11 +8,22 @@ body {
 
 .works__title {
   color: var(--mode-fg-0);
+  display: flex;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 3rem;
   font-weight: 900;
-  padding: 2rem;
-  display: flex;
   justify-content: center;
+  padding: 2rem;
 }
 
+.works__container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.works__cards {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem;
+}

@@ -50,7 +50,7 @@ HERO
   padding: 10px 20px;
 }
 
-.hero__cta:hover{
+.hero__cta:hover {
   background-color: var(--abs-neutral-aqua);
 }
 
@@ -73,7 +73,7 @@ SERVICES
   position: relative;
 }
 
-.services__header { 
+.services__header {
   display: flex;
   flex-direction: row;
   font-family: "Helvetica Neue", sans-serif;
@@ -106,7 +106,7 @@ SERVICES
   top: 390px;
   height: 75px;
   width: 75px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .shape--3 {
@@ -115,17 +115,17 @@ SERVICES
   top: 370px;
   height: 50px;
   width: 50px;
-  z-index: 1; 
+  z-index: 1;
 }
 
-.services__header > span {
+.services__header>span {
   display: inline-block;
   overflow: hidden;
   position: relative;
   vertical-align: top;
 }
 
-.services__header > span > span {
+.services__header>span>span {
   display: block;
   transform: translateX(17%);
 }
@@ -174,7 +174,7 @@ ABOUT
   position: relative;
 }
 
-.about__header { 
+.about__header {
   display: flex;
   flex-direction: row;
   font-family: "Helvetica Neue", sans-serif;
@@ -189,29 +189,29 @@ ABOUT
 }
 
 
-.about__header > span {
+.about__header>span {
   display: inline-block;
   overflow: hidden;
   position: relative;
   vertical-align: top;
 }
 
-.about__header > span > span {
+.about__header>span>span {
   display: block;
   transform: translateX(17%);
 }
 
-.about__container > .shape--1 {
+.about__container>.shape--1 {
   left: 190px;
   top: 205px;
 }
 
-.about__container > .shape--2 {
+.about__container>.shape--2 {
   left: 220px;
   top: 320px;
 }
 
-.about__container > .shape--3 {
+.about__container>.shape--3 {
   left: 190px;
   top: 300px;
 }
@@ -266,13 +266,13 @@ MINI-FOOTER
   font-weight: 300;
 }
 
-.footer__container > span{
+.footer__container>span {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
 
-.footer__container > span > *{
+.footer__container>span>* {
   margin: 10px;
 }
 
