@@ -1,0 +1,120 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* hidden by default */
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal.is-open {
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
+}
+
+.modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal__content {
+  align-items: center;
+  display: flex;
+  gap: 48px;
+  height: 100vh;
+  max-width: 1100px;
+  overflow: hidden;
+  padding: 48px;
+  position: relative; /*sits above backdrop*/
+  width: 100vw;
+  z-index: 1;
+}
+
+.modal__details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal__category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--mode-bg-0-s);
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+
+.modal__title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--mode-bg-0-s);
+}
+
+.modal__description {
+  color: var(--mode-bg-0-s);
+  line-height: 1.6;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.modal__tech-stack{
+  color: var(--mode-bg-0-s);
+  line-height: 1.6;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.modal__image {
+  flex: 1.5;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.modal__close {
+  position: absolute;
+  top: 100px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--mode-bg-0);
+}
+
+.modal__image-wrapper {
+  flex: 1.5;
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start; /* prevents clipping on tall images */
+  justify-content: center;
+}
+
+.modal__image-wrapper::-webkit-scrollbar {
+  display: none; /* chrome/safari */
+}
+
+.modal__image {
+  width: 100%;
+  height: auto;
+  object-fit: unset;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+
+}

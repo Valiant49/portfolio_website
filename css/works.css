@@ -1,0 +1,37 @@
+@import "./variables.css";
+@import "./components/navbar.css";
+@import "./tailwind.css";
+
+body {
+  background-color: var(--mode-bg-0-s);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures body is at least as tall as the screen */
+  margin: 0;
+}
+
+.works__page {
+  flex: 1;
+}
+
+.works__title {
+  color: var(--mode-bg-0-s);
+  display: flex;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.works__container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.works__cards {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem;;
+}

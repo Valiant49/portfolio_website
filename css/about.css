@@ -1,0 +1,120 @@
+@import "./variables.css";
+@import "./components/navbar.css";
+@import "./tailwind.css";
+
+body {
+    background-color: var(--mode-bg-0-s);
+}
+
+.about__title {
+  color: var(--mode-fg-0);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.about__introduction {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about__pfp > img {
+  background-color: var(--abs-neutral-red);
+  border-radius: 50%;
+  height: 350px;
+  position: static;
+  object-fit: cover;
+}
+
+.about__description {
+  position: static;
+  width: 645px;
+  height: 450px;
+  margin-left: 75px;
+}
+
+.about__name {
+  padding: 1.2rem;
+  /* padding-left: 0; */
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.about__information {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.9em;
+  padding: 1.2rem;
+  text-align: justify;
+}
+
+.skills__header {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.skills__subheader {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+/* -----------
+TOOLS
+----------- */
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.tool > img {
+  width: 50px;
+  height: 50px;
+}
+
+.tool > span {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.tools__design {
+  display: grid;
+  row-gap: 12px;
+  column-gap: 50px;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+.tools__development {
+  display: grid;
+  row-gap: 12px;
+  column-gap: 50px;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  grid-template-rows: repeat(2, auto);
+}

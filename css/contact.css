@@ -1,0 +1,69 @@
+@import "./variables.css";
+@import "./components/navbar.css";
+@import "./tailwind.css";
+
+body {
+  background-color: var(--mode-bg-0-s);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures body is at least as tall as the screen */
+  margin: 0;
+}
+
+.contact__page {
+  flex: 1;
+}
+
+img {
+ width: 50px;
+ height: 50px; 
+}
+
+.contact__title {
+  color: var(--mode-fg-0);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__tagline {
+  max-width: 900px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+
+}
+
+.contact > span {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.contacts {
+  margin: auto;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 750px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact__account {
+  margin-left: 10px;
+}

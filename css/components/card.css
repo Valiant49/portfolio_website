@@ -1,0 +1,44 @@
+.card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    /* keeps overlay and image within the rounded corners */
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    justify-content: space-around;
+    border: 1.5px solid var(--mode-fg-1);
+}
+
+.card__image {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+}
+
+.card__overlay {
+    align-items: center;
+    background-color: var(--mode-bg-4);
+    display: flex;
+    inset: 0;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card__overlay {
+    opacity: 0.90;
+
+}
+
+.card__title {
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    max-width: 280px;
+    text-align: center;
+}
