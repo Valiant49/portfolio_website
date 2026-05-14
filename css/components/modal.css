@@ -50,7 +50,7 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--mode-bg-0);
+  color: var(--mode-bg-0-s);
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
 }
@@ -59,18 +59,18 @@
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 900;
   font-size: 2rem;
-  color: var(--mode-bg-1);
+  color: var(--mode-bg-0-s);
 }
 
 .modal__description {
-  color: var(--mode-bg-2);
+  color: var(--mode-bg-0-s);
   line-height: 1.6;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
 }
 
 .modal__tech-stack{
-  color: var(--mode-bg-2);
+  color: var(--mode-bg-0-s);
   line-height: 1.6;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
