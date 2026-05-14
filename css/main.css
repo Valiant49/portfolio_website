@@ -54,10 +54,11 @@ HERO
   background-color: var(--abs-neutral-aqua);
 }
 
-.hero__pfp {
-  width: 500px;
+.hero__pfp > img{
+  width: auto;
   height: 700px;
   padding-left: 75px;
+  transform: scaleX(-1);
 }
 
 /* 
@@ -217,15 +218,17 @@ ABOUT
   top: 300px;
 }
 
-.about__pfp {
+.about__pfp > img {
   background-color: var(--abs-neutral-red);
   border-radius: 50%;
   height: 350px;
   left: 450px;
   top: 200px;
   width: 350px;
+  object-fit: cover;
   position: absolute;
 }
+
 
 .about__description {
   /* background-color: var(--abs-neutral-red); */

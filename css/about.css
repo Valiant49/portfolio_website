@@ -24,11 +24,12 @@ body {
   margin-top: 50px;
 }
 
-.about__pfp {
+.about__pfp > img {
   background-color: var(--abs-neutral-red);
   border-radius: 50%;
   height: 350px;
   position: static;
+  object-fit: cover;
 }
 
 .about__description {
@@ -96,7 +97,6 @@ TOOLS
   font-weight: 400;
 }
 
-
 .tools__design {
   display: grid;
   row-gap: 12px;
@@ -107,7 +107,6 @@ TOOLS
   margin-bottom: 50px;
 
 }
-
 
 .tools__development {
   display: grid;
